@@ -148,8 +148,37 @@ else:
 # ### forgot to added a score and identify function for the if, else clause to work. 
 # ### got fixated on the code proved and forgot that i needed to added assements to the scores to test the code
 
+# # Number 5
+
+# ### this code is asking use to create a nest desicsion of structures 
+
 # In[ ]:
 
 
+# variables to test the code 
+amount1 = 20
+amount2 = 90 
 
+# program for a nest decision structure 
+#adding if statements 
+if amount1 > 10:
+    if amount2 < 100:
+        if amount1 > amount2:
+            print(amount1, "is greater than", amount2)
+            else: amount1 < amount2:
+                print(amount1, "is less than", amount2)
+                else:
+                    if amount1 > 10 
+                    print("amount1 is not greater than 10")
+                    else:
+                        print ("amount2 is less than 100")
+                        #adding if else statements 
+                    
+                
+                
+                
+                
+        
+ 
+            
 
