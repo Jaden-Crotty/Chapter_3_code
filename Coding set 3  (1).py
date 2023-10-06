@@ -152,7 +152,7 @@ else:
 
 # ### this code is asking use to create a nest desicsion of structures 
 
-# In[ ]:
+# In[11]:
 
 
 # variables to test the code 
@@ -171,9 +171,9 @@ if amount1 > 10:
                     if amount1 > 10 
                     print("amount1 is not greater than 10")
                     else:
-                        print ("amount2 is less than 100")
+                    print ("amount2 is less than 100")
                         #adding if else statements 
-                    
+                
                 
                 
                 
@@ -181,4 +181,56 @@ if amount1 > 10:
         
  
             
+
+
+# In[12]:
+
+
+# for the function im going to fix invalid syntax 
+# Variables to test the code
+amount1 = 20
+amount2 = 90
+
+# Program for a nested decision structure
+# Adding if statements
+if amount1 > 10:
+    if amount2 < 100:
+        if amount1 > amount2:
+            print(amount1, "is greater than", amount2)
+        else:  # Removed "else" and added ":" to start an "if" block
+            print(amount1, "is less than", amount2)
+    else:  
+        print("amount2 is not less than 100")
+else:  
+    print("amount1 is not greater than 10")
+# added correct syntax to line 11 and spaced properly 
+
+
+# In[13]:
+
+
+# for the function im going to fix invalid syntax 
+# Variables to test the code
+amount1 = 500
+amount2 = 1000
+
+# Program for a nested decision structure
+# Adding if statements
+if amount1 > 10:
+    if amount2 < 100:
+        if amount1 > amount2:
+            print(amount1, "is greater than", amount2)
+        else:  # Removed "else" and added ":" to start an "if" block
+            print(amount1, "is less than", amount2)
+    else:  
+        print("amount2 is not less than 100")
+else:  
+    print("amount1 is not greater than 10")
+# added correct syntax to line 11 and spaced properly 
+
+
+# In[ ]:
+
+
+
 
