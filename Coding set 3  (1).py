@@ -229,8 +229,44 @@ else:
 # added correct syntax to line 11 and spaced properly 
 
 
+# # program exercise
+# ### question 1 
+
 # In[ ]:
 
 
+# they would like use to make a code ranging 1 to 7 and each number displaying a week
+# anything other than 1 to 7 should show up as an error message 
+# Get input
+person_input = input("Enter a number 1 through 7: ")
 
+# Checking the input if the is valid
+if person_input():
+    # Convert the input to an integer
+    number = int(person_input)
+# this step is displaying if the number is within the range the program should show the coraspoding answer 
+
+    # Check if the number is within the valid range # greater than or equal to because it is in the range  
+    if 1 <= number <= 7:
+        # enter an if-elif-else statement for numbers = weeks # == for numbers, = for assignment
+        if number == 1:
+            day = "Monday"
+        elif number == 2:
+            day = "Tuesday"
+        elif number == 3:
+            day = "Wednesday"
+        elif number == 4:
+            day = "Thursday"
+        elif number == 5:
+            day = "Friday"
+        elif number == 6:
+            day = "Saturday"
+        else:
+            day = "Sunday"
+        
+        # Display question for the function to activate 
+        print(f"The corresponding day of the week is {day}")
+    else:
+        print("Error: The number is outside the range of 1 through 7.")
+# 
 
