@@ -400,6 +400,50 @@ else:
 
 # #### test was succseful and function ran correctly it display it being to heavy and light 
 
+# # question 16 
+
+# In[1]:
+
+
+# we need to creat a program going through steps on how to fix wifi conection 
+# im going to make an if-elif-else statement to go through the steps 
+# Reboot the computer and try to connect. 
+# Did that fix the problem? no  [Enter] 
+\
+# Reboot the router and try to connect. 
+# Did that fix the problem? no  [Enter] 
+
+# Make sure the cables between the router and modem are plugged in firmly. 
+# Did that fix the problem? no  [Enter] 
+
+# Move the router to a new location. 
+# Did that fix the problem? no  [Enter] 
+
+# Get a new router.
+# used if statment to see what they typed in 
+# if they type no will move to next promt  
+print('Reboot the conputer and try to connect.')
+answer = input('Did that fix the problem?')
+if answer == ("no"):
+    print('Reboot the router and try to connect.')
+    answer = input('Did that fix the problem?')
+    if answer == ("no"):
+        print('Make sure the cables between the router and modem are plugged in firmly..')
+        answer = input('Did that fix the problem?')
+        if answer == ("no"):
+            print('Move the router to a new location.')
+            answer = input('Did that fix the problem?')
+            if answer == ("no"):
+                print("Get a new router.")
+                
+                
+            
+        
+    
+
+
+
+
 # In[ ]:
 
 
